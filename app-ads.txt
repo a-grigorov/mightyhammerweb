@@ -1,0 +1,28 @@
+# app-ads.txt for MightyHammer
+# https://www.mightyhammergames.com/app-ads.txt
+# Last updated: 2026-06-13
+
+# ---- Google AdMob (single Publisher ID for all platforms) ----
+google.com, pub-7362657972634345, DIRECT, f08c47fec0942fa0
+
+# ---- IronSource / Unity LevelPlay (separate App Key per platform) ----
+# Paint World - Android
+ironsource.com, 230f61725, DIRECT, f06a5f1f2f2e0f65
+ironsrc.com, 230f61725, DIRECT, f06a5f1f2f2e0f65
+# Paint World - iOS
+ironsource.com, 2105d233d, DIRECT, f06a5f1f2f2e0f65
+ironsrc.com, 2105d233d, DIRECT, f06a5f1f2f2e0f65
+# CosmoStack - iOS
+ironsource.com, YOUR_IRONSOURCE_APPKEY_COSMOSTACK_IOS, DIRECT, f06a5f1f2f2e0f65
+ironsrc.com, YOUR_IRONSOURCE_APPKEY_COSMOSTACK_IOS, DIRECT, f06a5f1f2f2e0f65
+
+# ---- Unity Ads (separate Game ID per platform) ----
+# Paint World - Android
+unity.com, 5804998, DIRECT, 96cabb5fbdde37a7
+unityads.unity3d.com, 5804998, DIRECT, 96cabb5fbdde37a7
+# Paint World - iOS
+unity.com, 5804999, DIRECT, 96cabb5fbdde37a7
+unityads.unity3d.com, 5804999, DIRECT, 96cabb5fbdde37a7
+# CosmoStack - iOS
+unity.com, YOUR_UNITY_GAMEID_COSMOSTACK_IOS, DIRECT, 96cabb5fbdde37a7
+unityads.unity3d.com, YOUR_UNITY_GAMEID_COSMOSTACK_IOS, DIRECT, 96cabb5fbdde37a7
