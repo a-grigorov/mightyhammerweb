@@ -5,142 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Privacy Policy – MightyHammer</title>
   <meta name="description" content="MightyHammer Privacy Policy for Paint World and CosmoStack apps." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚒️</text></svg>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    :root {
-      --bg:        #0d0e14;
-      --surface:   #15161f;
-      --border:    #252737;
-      --accent:    #e8534a;
-      --text:      #e8e9f0;
-      --muted:     #7e8099;
-      --radius:    14px;
-    }
-    body {
-      background: var(--bg);
-      color: var(--text);
-      font-family: 'Inter', sans-serif;
-      font-size: 16px;
-      line-height: 1.7;
-    }
-    nav {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 1.25rem 2rem;
-      border-bottom: 1px solid var(--border);
-      position: sticky;
-      top: 0;
-      background: rgba(13,14,20,0.92);
-      backdrop-filter: blur(10px);
-      z-index: 100;
-    }
-    .logo {
-      font-family: 'Space Grotesk', sans-serif;
-      font-weight: 700;
-      font-size: 1.25rem;
-      letter-spacing: -0.02em;
-      color: var(--text);
-      text-decoration: none;
-    }
-    .logo-hammer { color: var(--accent); }
-    nav a { color: var(--muted); text-decoration: none; font-size: 0.9rem; }
-    nav a:hover { color: var(--text); }
-
-    .container {
-      max-width: 740px;
-      margin: 0 auto;
-      padding: 4rem 2rem 6rem;
-    }
-    .page-eyebrow {
-      font-size: 0.72rem;
-      font-weight: 500;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: var(--muted);
-      margin-bottom: 1rem;
-    }
-    h1 {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: 2.2rem;
-      font-weight: 700;
-      letter-spacing: -0.03em;
-      margin-bottom: 0.5rem;
-    }
-    .updated {
-      font-size: 0.85rem;
-      color: var(--muted);
-      margin-bottom: 3rem;
-      padding-bottom: 2rem;
-      border-bottom: 1px solid var(--border);
-    }
-    h2 {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: 1.2rem;
-      font-weight: 700;
-      letter-spacing: -0.01em;
-      margin-top: 2.5rem;
-      margin-bottom: 0.75rem;
-      color: var(--text);
-    }
-    p { color: var(--muted); margin-bottom: 1rem; }
-    ul {
-      list-style: none;
-      margin-bottom: 1rem;
-      padding: 0;
-    }
-    ul li {
-      color: var(--muted);
-      padding: 0.25rem 0 0.25rem 1.25rem;
-      position: relative;
-    }
-    ul li::before {
-      content: '–';
-      position: absolute;
-      left: 0;
-      color: var(--accent);
-    }
-    a { color: var(--accent); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .highlight-box {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 1.25rem 1.5rem;
-      margin: 2rem 0;
-    }
-    .highlight-box p { margin: 0; }
-
-    footer {
-      border-top: 1px solid var(--border);
-      padding: 1.5rem 2rem;
-      text-align: center;
-    }
-    footer p { font-size: 0.82rem; color: var(--muted); margin: 0; }
-
-    @media (max-width: 600px) {
-      nav { padding: 1rem; }
-      .container { padding: 3rem 1.25rem 4rem; }
-      h1 { font-size: 1.75rem; }
-    }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-<nav>
-  <a class="logo" href="/"><span class="logo-hammer">⚒</span> MightyHammer</a>
-  <a href="index.html">← Home</a>
-</nav>
+<header>
+  <div class="wrap">
+    <a class="logo" href="/"><span>⚒</span> MightyHammer</a>
+    <nav>
+      <a href="index.html#games">Games</a>
+      <a href="index.html#about">About</a>
+    </nav>
+  </div>
+</header>
 
-<div class="container">
-  <div class="page-eyebrow">Legal</div>
+<main class="wrap legal">
   <h1>Privacy Policy</h1>
   <p class="updated">Last updated: January 1, 2024</p>
 
-  <div class="highlight-box">
+  <div class="note">
     <p>This Privacy Policy applies to all mobile applications published by <strong>MightyHammer</strong>, including <strong>Paint World</strong> and <strong>CosmoStack</strong>, available on Google Play and the Apple App Store.</p>
   </div>
 
@@ -204,15 +91,18 @@
 
   <h2>11. Contact Us</h2>
   <p>If you have any questions or requests regarding this Privacy Policy, please contact:</p>
-  <div class="highlight-box">
+  <div class="note">
     <p><strong>MightyHammer</strong><br />
     Email: <a href="mailto:privacy@mighty-hammer.com">privacy@mighty-hammer.com</a><br />
     Website: <a href="https://www.mighty-hammer.com">www.mighty-hammer.com</a></p>
   </div>
-</div>
+</main>
 
 <footer>
-  <p>© 2024 MightyHammer. All rights reserved. · <a href="index.html">Home</a></p>
+  <div class="wrap">
+    <span>© 2026 MightyHammer</span>
+    <a href="index.html">Home</a>
+  </div>
 </footer>
 
 </body>
