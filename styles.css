@@ -210,7 +210,7 @@ footer a:hover { color: var(--text); }
 .legal ul { padding-left: 20px; margin-bottom: 16px; }
 .legal li { margin-bottom: 6px; }
 .legal li::marker { color: var(--accent); }
-.legal a { color: var(--accent); }
+.legal a { color: var(--accent); overflow-wrap: anywhere; }
 .note {
   background: var(--surface);
   border: 1px solid var(--border);
@@ -219,6 +219,8 @@ footer a:hover { color: var(--text); }
   margin: 24px 0;
 }
 .note p { margin: 0; }
+.note h2 { margin-top: 0; }
+.note ul { margin-bottom: 0; }
 
 @media (max-width: 600px) {
   .wrap { padding: 0 16px; }
