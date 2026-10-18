@@ -13,8 +13,11 @@ ironsrc.com, 230f61725, DIRECT, f06a5f1f2f2e0f65
 ironsource.com, 2105d233d, DIRECT, f06a5f1f2f2e0f65
 ironsrc.com, 2105d233d, DIRECT, f06a5f1f2f2e0f65
 # CosmoStack - iOS
-ironsource.com, YOUR_IRONSOURCE_APPKEY_COSMOSTACK_IOS, DIRECT, f06a5f1f2f2e0f65
-ironsrc.com, YOUR_IRONSOURCE_APPKEY_COSMOSTACK_IOS, DIRECT, f06a5f1f2f2e0f65
+ironsource.com, 286779b7d, DIRECT, f06a5f1f2f2e0f65
+ironsrc.com, 286779b7d, DIRECT, f06a5f1f2f2e0f65
+# CosmoStack - Android
+ironsource.com, 28677d505, DIRECT, f06a5f1f2f2e0f65
+ironsrc.com, 28677d505, DIRECT, f06a5f1f2f2e0f65
 
 # ---- Unity Ads (separate Game ID per platform) ----
 # Paint World - Android
@@ -24,5 +27,8 @@ unityads.unity3d.com, 5804998, DIRECT, 96cabb5fbdde37a7
 unity.com, 5804999, DIRECT, 96cabb5fbdde37a7
 unityads.unity3d.com, 5804999, DIRECT, 96cabb5fbdde37a7
 # CosmoStack - iOS
-unity.com, YOUR_UNITY_GAMEID_COSMOSTACK_IOS, DIRECT, 96cabb5fbdde37a7
-unityads.unity3d.com, YOUR_UNITY_GAMEID_COSMOSTACK_IOS, DIRECT, 96cabb5fbdde37a7
+unity.com, 3562820, DIRECT, 96cabb5fbdde37a7
+unityads.unity3d.com, 3562820, DIRECT, 96cabb5fbdde37a7
+# CosmoStack - Android
+unity.com, 3562821, DIRECT, 96cabb5fbdde37a7
+unityads.unity3d.com, 3562821, DIRECT, 96cabb5fbdde37a7
